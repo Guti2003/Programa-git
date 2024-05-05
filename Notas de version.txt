@@ -1,0 +1,4 @@
+Versión 0.1 
+-Interfaz principal
+-Inicio de sesión 
+-(Desarrollo) Registro de equipos
