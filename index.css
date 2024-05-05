@@ -1,0 +1,912 @@
+/*logo*/
+
+.logo{
+
+position: absolute;
+width: 417px;
+height: 137px;
+left: 61px;
+top: 33px;
+
+}
+
+.logo::before{
+
+    content: ''; /* Añade un pseudo-elemento para el fondo */
+    position: absolute; /* Posiciona el fondo detrás de la imagen */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 105%; /* Ajusta al ancho del contenedor */
+    height: 105%; /* Ajusta a la altura del contenedor */
+    background-image: url(imagenes/BOTONGEMA.png); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño del fondo según sea necesario */
+    z-index: -1; /* Coloca el fondo detrás de la imagen */
+    background-position: left;
+}
+
+
+/*menu principal*/
+
+.cuadro-principal {
+    /* MENU */
+
+    position: absolute;
+    width: 501px;
+    height: 849px;
+    left: 19px;
+    top: 216px;
+    display: block;
+    background-image: url(imagenes/PANEL.png)
+    }
+
+.inicio-sesion {
+          
+    /* BOTON INICION SESION */
+
+    position: absolute;
+    width: 417px;
+    height: 67px;
+    left: 61px;
+    top: 249px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 0px;
+    /* identical to box height */
+    text-align: center;
+
+    color: white;
+
+    mix-blend-mode: normal;
+    
+    background-image: url(imagenes/BOTON.png);
+    background-size: cover;
+    }
+
+ .tabla-posiciones{
+    /* TALBA DE POSCIONES */
+
+    /* TALBA DE POSCIONES */
+
+    position: absolute;
+    width: 417px;
+    height: 67px;
+    left: 58px;
+    top: 423px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 0px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+    background-image: url(imagenes/BOTON.png);
+    background-size: auto;
+    }
+
+.tabla-goleadores{
+
+   /* TABLA DE GOLEARES */
+
+    position: absolute;
+    width: 436px;
+    height: 67px;
+    left: 58px;
+    top: 597px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 0px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background-image: url(imagenes/BOTON.png);
+   background-repeat: no-repeat;
+
+    }
+
+.tabla-tarjetas {
+
+    /* TALBA DE TARJETAS */
+
+/* TABLA DE TARJETAS */
+
+position: absolute;
+width: 436px;
+height: 67px;
+left: 51px;
+top: 772px;
+
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTON.png);
+background-repeat: no-repeat;
+
+}
+
+.tabla-asistencias{
+/* TABLA DE ASISTENCIAS */
+
+position: absolute;
+width: 436px;
+height: 67px;
+left: 51px;
+top: 947px;
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTON.png);
+background-repeat: no-repeat;
+
+}
+
+/* TOP 3 TARJETAS */
+
+.fondo-tops{
+
+    /* FONDO */
+
+position: absolute;
+width: 502.09px;
+height: 338.68px;
+left: 660px;
+top: 726px;
+
+background: #5D5D5D;
+border-radius: 50px;
+
+background-image: url(imagenes/FONDO\ tops3.png);
+
+}
+
+.top-tarjetas{
+
+    /* TOP TARJETAS */
+
+/* TOP 3 TARJETAS */
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660px;
+top: 726px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTONtops\ titulo.png);
+background-position: auto;
+
+}
+
+    /*JUGADORES*/
+
+.top1-tarjetas{
+
+    /* JARLAN BARRERA */
+
+
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660.91px;
+top: 809.07px;
+
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTON\ TOPS.png);
+
+}
+
+.numero-top1{
+    /* 5 */
+
+position: absolute;
+width: 16.43px;
+height: 33.78px;
+left: 1107.31px;
+top: 809.07px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.unoescudo-tarjetas{
+
+    /* NACIONAL */
+
+    position: absolute;
+    width: 38.54px;
+    height: 54.77px;
+    left: 678.26px;
+    top: 815.46px;
+}
+
+.top2-tarjetas{
+
+    /* DANIEL RUIZ */
+
+/* 2 */
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660.91px;
+top: 892.15px;
+
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTON\ TOPS.png);
+
+}
+
+.numero-top2{
+
+position: absolute;
+width: 16.43px;
+height: 33.78px;
+left: 1107.31px;
+top: 892.15px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.dosescudos-tarjetas{
+
+position: absolute;
+width: 54.77px;
+height: 54.77px;
+left: 670.04px;
+top: 898.54px;
+
+}
+
+.top3-tarjetas{
+
+    /* ANDRÉS RICAURTE */
+
+/* BOTON */
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660.91px;
+top: 975.22px;
+
+background: #696969;
+border-radius: 50px;
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.numero-top3{
+
+position: absolute;
+width: 16.43px;
+height: 33.78px;
+left: 1107.31px;
+top: 975.22px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.tercerescudo-tarjetas{
+
+position: absolute;
+width: 54.85px;
+height: 54.77px;
+left: 670.04px;
+top: 982.52px;
+
+}
+
+/* TOP 3 GOLES*/
+
+.fondo-goles{
+
+position: absolute;
+width: 502.09px;
+height: 338.68px;
+left: 660px;
+top: 371px;
+
+background: #5D5D5D;
+border-radius: 50px;
+
+}
+
+.titulo-goles{
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660px;
+top: 371px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTONtops\ titulo.png);
+
+}
+
+    /* JUGADORES */
+
+.top1-goles{
+
+ /* 1 */
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660.91px;
+top: 454.07px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTON\ TOPS.png);
+
+}
+
+.numero-top1goles{
+
+position: absolute;
+width: 16.43px;
+height: 33.78px;
+left: 1107.31px;
+top: 454.07px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.unoescudo-goles{
+
+    /* NACIONAL */
+
+position: absolute;
+width: 38.54px;
+height: 54.77px;
+left: 678.26px;
+top: 460.46px;
+
+}
+
+.top2-goles{
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660.91px;
+top: 537.15px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTON\ TOPS.png);
+
+}
+
+.dosescudos-goles{
+
+/* MILLONARIOS */
+
+position: absolute;
+width: 54.77px;
+height: 54.77px;
+left: 670.04px;
+top: 543.54px;
+
+}
+
+.numero-top2goles{
+
+position: absolute;
+width: 16.43px;
+height: 33.78px;
+left: 1107.31px;
+top: 537.15px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.top3-goles{
+
+/* 3 */
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660.91px;
+top: 620.22px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTON\ TOPS.png);
+
+}
+
+.tercerescudo-goles{
+
+position: absolute;
+width: 54.85px;
+height: 54.77px;
+left: 670.04px;
+top: 627.52px;
+
+}
+
+.numero-top3goles{
+
+position: absolute;
+width: 16.43px;
+height: 33.78px;
+left: 1107.31px;
+top: 620.22px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+/* TOP ASISTENCIAS */
+
+.fondo-asistencia{
+
+    /* FONDO */
+
+position: absolute;
+width: 502.09px;
+height: 338.68px;
+left: 660px;
+top: 16px;
+
+background: #5D5D5D;
+border-radius: 50px;
+
+
+}
+
+.titulo-asistencia{
+/* TOP 3 ASISTENCIA */
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660px;
+top: 16px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+background-image: url(imagenes/BOTONtops\ titulo.png);
+
+}
+
+    /* JUGADORES */
+
+.top1-asistencias{
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660.91px;
+top: 99.07px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background: #696969;
+border-radius: 50px;
+
+}
+
+.numero-top1asistencias{
+
+/* 5 */
+
+position: absolute;
+width: 16.43px;
+height: 33.78px;
+left: 1107.31px;
+top: 99.07px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+}
+
+.unoescudo-asistencias{
+
+/* NACIONAL */
+
+position: absolute;
+width: 38.54px;
+height: 54.77px;
+left: 678.26px;
+top: 105.46px;
+
+}
+
+.top2-asistencias{
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660.91px;
+top: 182.15px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background: #696969;
+border-radius: 50px;
+
+}
+
+.dosescudos-asistencias{
+
+/* MILLONARIOS */
+
+position: absolute;
+width: 54.77px;
+height: 54.77px;
+left: 670.04px;
+top: 188.54px;
+
+}
+
+.numero-top2asistencias{
+
+/* 3 */
+
+position: absolute;
+width: 16.43px;
+height: 33.78px;
+left: 1107.31px;
+top: 182.15px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+}
+
+.top3-asistencias{
+
+position: absolute;
+width: 502.09px;
+height: 68.47px;
+left: 660.91px;
+top: 265.22px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+background: #696969;
+border-radius: 50px;
+
+}
+
+.tercerescudo-asistencias{
+
+position: absolute;
+width: 54.85px;
+height: 54.77px;
+left: 670.04px;
+top: 272.52px;
+
+}
+
+.numero-top3asistencias{
+
+/* 1 */
+
+position: absolute;
+width: 16.43px;
+height: 33.78px;
+left: 1107.31px;
+top: 265.22px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+}
+
+/* FECHAS */
+
+.fondo-fechas{
+/* FONDO FECHAS */
+position: absolute;
+width: 550px;
+height: 1049px;
+left: 1340px;
+top: 16px;
+
+background: #606060;
+border-radius: 50px;
+}
+
+.fondo-titulof{
+
+    /* FECHAS */
+
+position: absolute;
+width: 550px;
+height: 75px;
+left: 1340px;
+top: 16px;
+
+background: #696969;
+border-radius: 50px;
+
+
+}
+
+.fechas-titulo{
+
+    position: absolute;
+    width: 550px;
+    height: 75px;
+    left: 1340px;
+    top: -20px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+    /* JUEGOS */
+
+.marcador1{
+
+/* VS 60 : 00 */
+
+position: absolute;
+width: 121px;
+height: 84px;
+left: 1555px;
+top: 125px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 0px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.fondo-f1{
+
+/* BOTON MARCADOR */
+
+position: absolute;
+width: 530px;
+height: 132px;
+left: 1350px;
+top: 116px;
+
+background: #696969;
+border-radius: 50px;
+
+}
+
+.equipo1{
+
+/* NACIONAL */
+
+position: absolute;
+width: 81px;
+height: 116px;
+left: 1390px;
+top: 124px;
+
+}
+
+.equipo2{
+
+/* MILLONARIOS */
+
+position: absolute;
+width: 116px;
+height: 116px;
+left: 1737px;
+top: 124px;
+
+}
