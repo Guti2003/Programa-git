@@ -31,7 +31,180 @@ top: 49px;
 
 background: #696969;
 border-radius: 50px;
-    
+
 }
 
+.Logo{
+/* JEMA */
 
+position: absolute;
+width: 320.2px;
+height: 103.66px;
+left: 51.25px;
+top: 29.05px;
+
+}
+
+.LogoFondo{
+
+/* DETRAS DE JEMA */
+
+position: absolute;
+width: 384.7px;
+height: 129px;
+left: 19px;
+top: 16px;
+
+background: #888888;
+opacity: 0.89;
+border-radius: 100px;
+
+
+}
+
+.NombreEquipo{
+
+/* Nombre del equipo */
+
+position: absolute;
+width: 600px;
+height: 47px;
+left: 536px;
+top: 201px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.BarraTexto{
+
+    /* Rectangle 2 */
+
+position: absolute;
+width: 684px;
+height: 64px;
+left: 512px;
+top: 285px;
+
+background: #FFFFFF;
+border-radius: 50px;
+text-align: center;
+
+
+}
+
+.Ciudad{
+
+/* Ciudad */
+
+position: absolute;
+width: 133px;
+height: 47px;
+left: 536px;
+top: 371px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.BarraTexto2{
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 684px;
+height: 64px;
+left: 512px;
+top: 454px;
+
+background: #FFFFFF;
+border-radius: 50px;
+text-align: center;
+
+}
+
+.Registrar{
+
+/* REGISTRAR */
+
+position: absolute;
+width: 174px;
+height: 38px;
+left: 872px;
+top: 864px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.FondoRe{
+
+position: absolute;
+width: 659px;
+height: 64px;
+left: 630px;
+top: 873px;
+
+background: #696969;
+border-radius: 50px;
+
+}
+
+.FCancelar{
+
+position: absolute;
+width: 659px;
+height: 64px;
+left: 630px;
+top: 957px;
+
+background: #696969;
+border-radius: 50px;
+
+}
+
+.Cancelar{
+
+/* CANCELAR */
+
+position: absolute;
+width: 171px;
+height: 38px;
+left: 874px;
+top: 950px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}

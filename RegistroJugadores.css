@@ -1,0 +1,348 @@
+.RegistrarEquipo{
+   /* REGISTRAR JUGADORES */
+
+position: absolute;
+width: 373px;
+height: 38px;
+left: 774px;
+top: 42px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.FEquipo{
+/* Rectangle 2 */
+position: absolute;
+width: 895px;
+height: 64px;
+left: 512px;
+top: 49px;
+
+background: #696969;
+border-radius: 50px;
+
+}
+
+.FLogo{
+
+/* DETRAS DE JEMA */
+
+position: absolute;
+width: 384.7px;
+height: 129px;
+left: 19px;
+top: 16px;
+
+background: #888888;
+opacity: 0.89;
+border-radius: 100px;
+
+}
+
+.Logo{
+
+    /* JEMA */
+
+position: absolute;
+width: 320.2px;
+height: 103.66px;
+left: 51.25px;
+top: 29.05px;
+
+}
+
+    /* FORMULARIO */
+
+.CC{
+
+/* Tipo de identificación */
+
+position: absolute;
+width: 500px;
+height: 47px;
+left: 163px;
+top: 178px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.ListaDesplegable{
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 684px;
+height: 64px;
+left: 139px;
+top: 260px;
+
+background: #FFFFFF;
+border-radius: 50px;
+
+}
+
+.Numero{
+
+/* Número de identificación */
+
+position: absolute;
+width: 600px;
+height: 47px;
+left: 1171px;
+top: 178px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.CNumero{
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 684px;
+height: 64px;
+left: 1147px;
+top: 260px;
+
+background: #FFFFFF;
+border-radius: 50px;
+text-align: center;
+
+}
+
+.Nombre{
+
+/* Nombres */
+
+position: absolute;
+width: 174px;
+height: 47px;
+left: 163px;
+top: 370px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.CNombre{
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 684px;
+height: 64px;
+left: 139px;
+top: 445px;
+
+background: #FFFFFF;
+border-radius: 50px;
+
+}
+
+.Apellidos{
+
+/* Apellidos */
+
+position: absolute;
+width: 177px;
+height: 47px;
+left: 1171px;
+top: 370px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.CApellidos{
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 684px;
+height: 64px;
+left: 1147px;
+top: 445px;
+
+background: #FFFFFF;
+border-radius: 50px;
+
+}
+
+.Fecha{
+
+/* fecha de nacimiento */
+
+position: absolute;
+width: 500px;
+height: 47px;
+left: 163px;
+top: 562px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.CFecha{
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 684px;
+height: 64px;
+left: 139px;
+top: 640px;
+
+background: #FFFFFF;
+border-radius: 50px;
+
+}
+
+.Posicion{
+
+/* Posición */
+
+position: absolute;
+width: 157px;
+height: 47px;
+left: 1171px;
+top: 562px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.CPosicion{
+        /* Rectangle 2 */
+
+position: absolute;
+width: 684px;
+height: 64px;
+left: 1147px;
+top: 640px;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+
+.Registrar{
+
+/* REGISTRAR */
+
+position: absolute;
+width: 174px;
+height: 38px;
+left: 873px;
+top: 800px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.FRegistrar{
+
+    /* Rectangle 2 */
+
+position: absolute;
+width: 659px;
+height: 64px;
+left: 631px;
+top: 809px;
+
+background: #696969;
+border-radius: 50px;
+
+}
+
+.Cancelar{
+
+/* CANCELAR */
+
+position: absolute;
+width: 171px;
+height: 38px;
+left: 875px;
+top: 907px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.FCancelar{
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 659px;
+height: 64px;
+left: 631px;
+top: 915px;
+
+background: #696969;
+border-radius: 50px;
+}

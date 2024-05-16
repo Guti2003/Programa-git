@@ -2,3 +2,8 @@ Versión 0.1
 -Interfaz principal
 -Inicio de sesión 
 -(Desarrollo) Registro de equipos
+
+Versión 0.2
+
+-Interfaz de Registro de equipo
+-Interfaz de Registro de Jugadores
